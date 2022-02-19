@@ -1,0 +1,76 @@
+@media (max-width: 39.9375rem) { 
+    #image-hero, #image-grid-1, #image-grid-2, #image-grid-3 {
+        display: block;
+        width: 100%;
+    }
+    #main {
+        margin: 0 18px 0 18px;
+
+        h1 {
+            font-size: 3.75em;
+        }
+
+        #first_title {
+            margin: 35px 0 44px 0;
+        }
+
+        p {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 300;
+        }
+
+        h2 {
+            background: #151515;
+            width: 205px;
+            color: white;
+            text-align: center;
+            padding: 29px 0;
+            letter-spacing: 5px;
+            margin: 44px 0 7.5em 0;
+        }
+
+        #second_title {
+            margin: 27px 0 32px 0;
+            font-size: 3.125em;
+            font-weight: 900;
+        }
+
+        p:nth-of-type(2) {
+            margin-bottom: 35px;
+        }
+        #location_button  {
+            position: relative;
+            width: 269px;
+        }
+        #mobile_right_arrow {
+            background: #d5966c;
+            padding: 27px;
+            display: inline;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+
+        #image-grid-3 {
+            margin: 1em 0;
+        }
+        
+        #inspiration_section {
+            padding: 48px 0 54px 24px;
+            background: #151515;
+            margin-bottom: 7.4375em;
+            h1 {
+                color: white;
+                font-size: 3.125em;
+                font-weight: 900;
+            }
+
+            p {
+                margin: 35px 0 0 0;
+                color: white;
+                font-size: 18px;
+                font-weight: 300;
+            }
+        }
+    }
+}
