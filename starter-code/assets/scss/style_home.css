@@ -2,7 +2,7 @@
   margin: 0;
 }
 
-#image-hero, #image-grid-1, #image-grid-2, #image-grid-3 {
+#image-hero, #image-grid-1, #image-grid-2, #image-grid-3, #image-map {
   display: none;
 }
 
@@ -32,25 +32,33 @@ p {
   display: none;
 }
 
+#mobile_left_arrow {
+  display: none;
+}
+
+.black_network {
+  display: none;
+}
+
 @media (max-width: 39.9375rem) {
   #image-hero, #image-grid-1, #image-grid-2, #image-grid-3 {
     display: block;
     width: 100%;
   }
-  #main {
+  #main_mobile {
     margin: 0 18px 0 18px;
   }
-  #main h1 {
+  #main_mobile h1 {
     font-size: 3.75em;
   }
-  #main #first_title {
+  #main_mobile #first_title {
     margin: 35px 0 44px 0;
   }
-  #main p {
+  #main_mobile p {
     font-family: 'Outfit', sans-serif;
     font-weight: 300;
   }
-  #main h2 {
+  #main_mobile h2 {
     background: #151515;
     width: 205px;
     color: white;
@@ -59,19 +67,19 @@ p {
     letter-spacing: 5px;
     margin: 44px 0 7.5em 0;
   }
-  #main #second_title {
+  #main_mobile #second_title {
     margin: 27px 0 32px 0;
     font-size: 3.125em;
     font-weight: 900;
   }
-  #main p:nth-of-type(2) {
+  #main_mobile p:nth-of-type(2) {
     margin-bottom: 35px;
   }
-  #main #location_button {
+  #main_mobile #location_button {
     position: relative;
     width: 269px;
   }
-  #main #mobile_right_arrow {
+  #main_mobile #mobile_right_arrow {
     background: #d5966c;
     padding: 27px;
     display: inline;
@@ -79,20 +87,20 @@ p {
     top: 0;
     right: 0;
   }
-  #main #image-grid-3 {
+  #main_mobile #image-grid-3 {
     margin: 1em 0;
   }
-  #main #inspiration_section {
+  #main_mobile #inspiration_section {
     padding: 48px 0 54px 24px;
     background: #151515;
     margin-bottom: 7.4375em;
   }
-  #main #inspiration_section h1 {
+  #main_mobile #inspiration_section h1 {
     color: white;
     font-size: 3.125em;
     font-weight: 900;
   }
-  #main #inspiration_section p {
+  #main_mobile #inspiration_section p {
     margin: 35px 0 0 0;
     color: white;
     font-size: 18px;
@@ -118,4 +126,4 @@ p {
     margin-right: 20px;
   }
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style_home.css.map */

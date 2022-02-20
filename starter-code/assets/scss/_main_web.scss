@@ -2,7 +2,7 @@
     margin: 0;
 }
 
-#image-hero, #image-grid-1, #image-grid-2, #image-grid-3{
+#image-hero, #image-grid-1, #image-grid-2, #image-grid-3, #image-map{
     display: none;
 }
 
@@ -29,5 +29,13 @@ p {
 }
 
 #mobile_right_arrow {
+    display: none;
+}
+
+#mobile_left_arrow {
+    display: none;
+}
+
+.black_network {
     display: none;
 }
